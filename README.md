@@ -42,44 +42,34 @@ JWT_EXPIRES_IN=
 npm run dev
 ```
 
-📌 API Endpoints
+## 📌 API Endpoints
 
 Auth
 
-POST /api/auth/register
-
-POST /api/auth/login
+- POST /api/auth/register
+- POST /api/auth/login
 
 Products
 
-GET /api/products
-
-POST /api/products
-
-PUT /api/products/:id
-
-DELETE /api/products/:id
+- GET /api/products
+- POST /api/products
+- PUT /api/products/:id
+- DELETE /api/products/:id
 
 Categories
 
-GET /api/categories
-
-POST /api/categories
-
-PUT /api/categories/:id
-
-DELETE /api/categories/:id
+- GET /api/categories
+- POST /api/categories
+- PUT /api/categories/:id
+- DELETE /api/categories/:id
 
 Orders
 
-POST /api/orders
+- POST /api/orders
+- GET /api/orders
+- GET /api/orders/:id
+- PATCH /api/orders/:id/status
 
-GET /api/orders
+## 🧠 Author
 
-GET /api/orders/:id
-
-PATCH /api/orders/:id/status
-
-🧠 Author
-
-Cristhian Chanamé
+- Cristhian Chanamé
