@@ -1,0 +1,5 @@
+export const AUDIT_ENTITIES = {
+    PRODUCT: 'PRODUCT',
+    CATEGORY: 'CATEGORY',
+    ORDER: 'ORDER'
+};
